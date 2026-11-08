@@ -1,0 +1,17 @@
+
+name: TeamSymbols
+version: 1.0.0
+main: nl.teamsymbols.TeamSymbolsPlugin
+api-version: '1.21'
+author: TeamSymbols
+description: Standalone team plugin with colored symbols
+
+commands:
+  team:
+    description: Teambeheer
+    usage: /team
+
+permissions:
+  teamsymbols.admin:
+    description: Volledige toegang tot TeamSymbols
+    default: op
